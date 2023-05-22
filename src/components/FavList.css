@@ -1,0 +1,107 @@
+.fav-list-container {
+  margin-top: 20px !important;
+  color: white;
+  margin: 1em !important;
+  display: flex !important;
+  flex-wrap: wrap !important;
+  justify-content: center !important; /* Center the cards horizontally */
+}
+
+h2 {
+  color: red;
+  text-align: center;
+  padding: 20px;
+}
+
+.fav-list-card {
+  border: 1px solid #000000 !important;
+  border-radius: 4px !important;
+  padding: 10px !important;
+  width: 20em;
+  background-image: linear-gradient(
+    to bottom right,
+    rgba(0, 0, 0, 0.775),
+    rgb(18, 18, 18)
+  );
+  margin: 4em;
+}
+
+.fav-list-card-img {
+  height: 300px !important;
+  object-fit: contain !important;
+  width: 100%;
+}
+
+.fav-list-card-title {
+  font-size: 18px !important;
+  margin-bottom: 10px !important;
+}
+
+.fav-list-card-text {
+  margin-bottom: 15px !important;
+}
+
+.fav-list-card-edit {
+  display: flex;
+  flex-direction: column;
+}
+
+.fav-list-comment-input {
+  padding: 10px;
+  margin: 10px;
+}
+
+.fav-list-card-buttons {
+  display: flex;
+  align-items: center;
+}
+
+.fav-list-card-comment {
+  margin-right: 10px;
+  color: aqua;
+}
+
+.fav-list-btn-update {
+  background-color: #218a01 !important;
+  color: #fff !important;
+  margin-right: 5px;
+}
+
+.fav-list-btn-cancel {
+  background-color: #ff0019 !important;
+  color: #fff !important;
+}
+
+.fav-list-btn-delete {
+  background-color: #ff0019 !important;
+  color: #fff !important;
+  margin: 1em;
+  float: right;
+}
+
+.fav-list-btn-edit {
+  background-color: #218a01 !important;
+  color: #fff !important;
+  margin: 1em;
+}
+
+.fav-list-card-text {
+  max-height: 100px; /* Adjust the height as needed */
+  overflow: hidden;
+}
+
+.show-more-button {
+  display: block !important;
+  margin-top: 8px !important;
+  color: rgb(255, 255, 255) !important;
+  background: #787777 !important;
+  text-decoration: none !important;
+  font-size: 12px !important;
+}
+
+.show-less-button {
+  display: block;
+  margin-top: 8px;
+  color: blue;
+  cursor: pointer;
+}

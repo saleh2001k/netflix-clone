@@ -1,0 +1,21 @@
+
+.navbar {
+    background-color: #0000009e ;
+    height: 10vh;
+    padding: 7vh !important;
+  }
+  
+
+  .nav-link {
+    color: rgb(255, 13, 13) !important;
+    font-size: 20px !important;
+    font-weight: bold !important;
+    padding: 5vh !important;
+  }
+  
+  .nav-link:hover {
+    color: #fff !important;
+    background: #ff0000 !important;
+  }
+  
+  
