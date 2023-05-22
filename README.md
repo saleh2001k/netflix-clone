@@ -39,6 +39,16 @@ This is a Netflix clone web application built with React. It allows you to brows
 - Improved the modal layout and styling.
 ![](./src/assets/Capture.PNG)
 
+### FavList.js
+
+- Added a textarea to input comments.
+- Handled the addition of movies to favorites.
+- Improved the modal layout and styling.
+![](./src/assets/Capture5.png)
+#### The data from the database:
+![](./src/assets/Capture6.png)
+
+
 
 ### server.js
 
