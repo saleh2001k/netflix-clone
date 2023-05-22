@@ -1,5 +1,5 @@
 # Netflix Clone 
-## v1.0
+## v1.1
 
 This is a Netflix clone web application built with React. It allows you to browse movies and add them to your favorites.
 
